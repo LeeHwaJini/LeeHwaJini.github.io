@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hwajin</title>
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+  </head>
+  <body>
+    <!-- <section class="section banner-section">
+      <h2 class="banner-title">
+        <span>publisher</span>
+        <span>constantly</span>
+        <span>challenges</span>
+        <span>itself</span>
+      </h2>
+
+      <div class="video-bg-area">
+        <video
+          src="./assets/video/test_video.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+        />
+      </div>
+    </section> -->
+
+    <main class="swipe-section">
+      <section class="section about-section">
+        <h2 class="portfolio-title title">About</h2>
+
+        <div class="about-area">
+          <img src="./assets/images/hwajin_img.png" alt="이화진이미지" />
+          <p class="text">
+            안녕하세요! 웹퍼블리셔 이화진입니다.<br />
+            저는 좋아하는 일을 하면서 항상 배우고 성장하자는 마음가짐을
+            가지고<br />
+            웹페이지를 구현하고 있습니다.<br />
+            맡은 프로젝트의 목적을 우선적으로 고려하며,<br />
+            원활한 협업을 중요하게 생각합니다.<br />
+            디자인과 개발자 사이에서 가교 역할을 하기 위해 항상 노력하고 있으며,
+            <br />
+            다양한 환경에서 항상 준비가 되어 퍼블리싱을 구현하는<br />
+            퍼블리셔가 되기 위해 도전하고 있습니다.<br />
+          </p>
+        </div>
+      </section>
+
+      <section class="section portfolio-section">
+        <h2 class="portfolio-title title">portfolio</h2>
+        <ul class="portfolio-list">
+          <li>
+            <div class="img-area">
+              <img src="./assets/images/portfoilo_riman.png" alt="리만코리아" />
+            </div>
+
+            <div class="text-area">
+              <h5 class="title-text">리만코리아</h5>
+              <p class="sub-text">리만코리아 사이트 퍼블리싱</p>
+
+              <div class="tag-area">
+                <span class="tag">#vue</span>
+                <span class="tag">#qursar</span>
+                <span class="tag">#Scss</span>
+              </div>
+
+              <div class="right-btn-area">
+                <a class="portfolio-more-btn"
+                  >포트폴리오 자세히보러가기 &rarr;</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-area">
+              <img
+                src="./assets/images/portfoilo_medical_center.png"
+                alt="이화의료원"
+              />
+            </div>
+            <div class="text-area">
+              <h5 class="title-text">이화의료원</h5>
+              <p class="sub-text">이화의료원 APP 퍼블리싱</p>
+
+              <div class="tag-area">
+                <span class="tag">#ReactNative</span>
+              </div>
+
+              <div class="right-btn-area">
+                <a class="portfolio-more-btn"
+                  >포트폴리오 자세히보러가기 &rarr;</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-area">
+              <img src="./assets/images/portfoilo_dari.png" alt="DARI" />
+            </div>
+
+            <div class="text-area">
+              <h5 class="title-text">DARI</h5>
+              <p class="sub-text">마케팅 통합 툴 DARI 퍼블리싱</p>
+
+              <div class="tag-area">
+                <span class="tag">#html</span>
+                <span class="tag">#css</span>
+                <span class="tag">#jquery</span>
+              </div>
+
+              <div class="right-btn-area">
+                <a class="portfolio-more-btn"
+                  >포트폴리오 자세히보러가기 &rarr;</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-area">
+              <img
+                src="./assets/images/portfoilo_loftshop.png"
+                alt="Loftshop"
+              />
+            </div>
+
+            <div class="text-area">
+              <h5 class="title-text">Loftshop</h5>
+              <p class="sub-text">로프트샵 사이트 리뉴얼 퍼블리싱</p>
+
+              <div class="tag-area">
+                <span class="tag">#godomall</span>
+                <span class="tag">#html</span>
+                <span class="tag">#css</span>
+                <span class="tag">#jquery</span>
+              </div>
+
+              <div class="right-btn-area">
+                <a class="portfolio-more-btn"
+                  >포트폴리오 자세히보러가기 &rarr;</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-area">
+              <img src="./assets/images/portfoilo_eg.png" alt="말레EG" />
+            </div>
+
+            <div class="text-area">
+              <h5 class="title-text">말레EG</h5>
+              <p class="sub-text">말레이시아 영어캠프 모집 사이트 퍼블리싱</p>
+
+              <div class="tag-area">
+                <span class="tag">#html</span>
+                <span class="tag">#css</span>
+                <span class="tag">#javascript</span>
+              </div>
+
+              <div class="right-btn-area">
+                <a class="portfolio-more-btn"
+                  >포트폴리오 자세히보러가기 &rarr;</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-area">
+              <img src="./assets/images/portfoilo_topper.png" alt="워니토퍼" />
+            </div>
+
+            <div class="text-area">
+              <h5 class="title-text">워니토퍼</h5>
+              <p class="sub-text">이벤트 공간 장식 업체 사이트 퍼블리싱</p>
+
+              <div class="tag-area">
+                <span class="tag">#html</span>
+                <span class="tag">#css</span>
+                <span class="tag">#javascript</span>
+              </div>
+
+              <div class="right-btn-area">
+                <a class="portfolio-more-btn"
+                  >포트폴리오 자세히보러가기 &rarr;</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-area">
+              <img
+                src="./assets/images/portfoilo_inus.png"
+                alt="이누스프렌즈"
+              />
+            </div>
+
+            <div class="text-area">
+              <h5 class="title-text">이누스프렌즈몰</h5>
+              <p class="sub-text">이누스프렌즈몰 UX/UI 개선 작업 운영</p>
+
+              <div class="tag-area">
+                <span class="tag">#cafe24</span>
+                <span class="tag">#html</span>
+                <span class="tag">#css</span>
+                <span class="tag">#jquery</span>
+              </div>
+
+              <div class="right-btn-area">
+                <a class="portfolio-more-btn"
+                  >포트폴리오 자세히보러가기 &rarr;</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <!-- <p class="text-area">better&</p>
+          <a href="">
+            <img src="./assets/images/portfoilo_bettern.png" alt="better" />
+          </a> -->
+            <div class="img-area">
+              <img src="./assets/images/portfoilo_bettern.png" alt="better" />
+            </div>
+
+            <div class="text-area">
+              <h5 class="title-text">better&</h5>
+              <p class="sub-text">Better& UX/UI 개선 작업 운영</p>
+
+              <div class="tag-area">
+                <span class="tag">#wordpress</span>
+                <span class="tag">#html</span>
+                <span class="tag">#css</span>
+                <span class="tag">#jquery</span>
+              </div>
+
+              <div class="right-btn-area">
+                <a class="portfolio-more-btn"
+                  >포트폴리오 자세히보러가기 &rarr;</a
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- <div class="flow-text-area">
+        <p class="flow-text">Building Beautiful and Functional Websites</p>
+      </div> -->
+      </section>
+
+      <section class="section">
+        <h2 class="title">skill</h2>
+        <div class="typo-area">
+          <!-- <div class="group-flex txtMotion"> -->
+          <div class="wrap-text">
+            <span class="word slideUp"><b>PUBLISHER</b></span>
+          </div>
+          <div class="wrap-text split-w">
+            <span class="word thin">
+              <span class="split-word scaleMotion">C</span>
+              <span class="split-word scaleMotion">S</span>
+              <span class="split-word scaleMotion">S</span>
+            </span>
+          </div>
+          <div class="wrap-text">
+            <span class="word slideRight">SCSS</span>
+          </div>
+
+          <div class="wrap-text thin">
+            <span class="word slideDown">
+              <b>HTML</b>
+            </span>
+          </div>
+          <div class="wrap-text thin split-w">
+            <span class="word">
+              <span class="split-word scaleMotion">J</span>
+              <span class="split-word scaleMotion">q</span>
+              <span class="split-word scaleMotion">u</span>
+              <span class="split-word scaleMotion">e</span>
+              <span class="split-word scaleMotion">r</span>
+              <span class="split-word scaleMotion">y</span>
+            </span>
+          </div>
+
+          <div class="wrap-text thin split-w">
+            <span class="word">
+              <span class="split-word scaleMotion">책</span>
+              <span class="split-word scaleMotion">임</span>
+              <span class="split-word scaleMotion">감</span>
+            </span>
+          </div>
+          <div class="wrap-text thin">
+            <span class="word slideLeft">Vue.js</span>
+          </div>
+          <div class="wrap-text regular">
+            <span class="word slideUp">성장</span>
+          </div>
+          <div class="wrap-text">
+            <span class="word slideLeft"><b>INTERACTION</b></span>
+          </div>
+          <div class="wrap-text thin">
+            <span class="word slideDown">존중</span>
+          </div>
+
+          <div class="wrap-text">
+            <span class="word thin slideRight">Javascript</span>
+          </div>
+          <div class="wrap-text regular">
+            <span class="word slideDown bold">웹 접근성</span>
+          </div>
+          <div class="wrap-text thin split-w">
+            <span class="word">
+              <span class="split-word scaleMotion">F</span>
+              <span class="split-word scaleMotion">i</span>
+              <span class="split-word scaleMotion">g</span>
+              <span class="split-word scaleMotion">m</span>
+              <span class="split-word scaleMotion">a</span>
+            </span>
+          </div>
+          <div class="wrap-text thin">
+            <span class="word m14 slideLeft">소통</span>
+          </div>
+          <div class="wrap-text thin">
+            <span class="word slideUp">감각</span>
+          </div>
+
+          <div class="wrap-text">
+            <span class="word slideDown"><b>FOLLOW</b></span>
+          </div>
+          <div class="wrap-text split-w">
+            <span class="word thin">
+              <span class="split-word scaleMotion">A</span>
+              <span class="split-word scaleMotion">J</span>
+              <span class="split-word scaleMotion">A</span>
+              <span class="split-word scaleMotion">X</span>
+            </span>
+          </div>
+          <!-- <div class="wrap-text">
+            <span class="word thin slideDown">&amp;</span>
+          </div>
+          <div class="wrap-text">
+            <span class="word thin slideUp">KEEP</span>
+          </div>
+          <div class="wrap-text">
+            <span class="word slideRight"> <strong>LEARNING</strong></span>
+          </div> -->
+          <!-- </div> -->
+        </div>
+      </section>
+    </main>
+
+    <!-- <div class="circle" data-splitting="chars">SEE•MORE•</div> -->
+    <div class="mouse__cursor"></div>
+    <div class="mouse__cursor2"></div>
+  </body>
+</html>
+<!-- <script>
+  //선택자
+  const cursor = document.querySelector(".mouse__cursor");
+  const cursor2 = document.querySelector(".mouse__cursor2");
+
+  //커서 좌표값 할당
+  window.addEventListener("mousemove", (e) => {
+    // cursor.style.left = e.pageX -5 + "px";
+    // cursor.style.top = e.pageY -5 + "px";
+    // cursor2.style.left = e.pageX -15 + "px";
+    // cursor2.style.top = e.pageY -15 + "px";
+    //GSAP
+    // gsap.to(cursor, { duration: 0.3, left: e.pageX - 5, top: e.pageY - 5 });
+    // gsap.to(cursor2, { duration: 0.8, left: e.pageX - 15, top: e.pageY - 15 });
+    //오버 효과
+    // document.querySelector(".mouse__text span").addEventListener("mouseenter", () => {
+    //     cursor.classList.add("active");
+    //     cursor2.classList.add("active");
+    // });
+    // document.querySelector(".mouse__text span").addEventListener("mouseleave", () => {
+    //     cursor.classList.remove("active");
+    //     cursor2.classList.remove("active");
+    // });
+    // document.querySelectorAll(".mouse__text span").forEach((el) => {
+    //   el.addEventListener("mouseenter", () => {
+    //     cursor.classList.add("active");
+    //     // cursor2.classList.add("active");
+    //   });
+    //   el.addEventListener("mouseleave", () => {
+    //     cursor.classList.remove("active");
+    //     // cursor2.classList.remove("active");
+    //   });
+    // });
+    // document.querySelectorAll("#header ul").forEach((el) => {
+    //   el.addEventListener("mouseenter", () => {
+    //     cursor.classList.add("active2");
+    //     // cursor2.classList.add("active2");
+    //   });
+    //   el.addEventListener("mouseleave", () => {
+    //     cursor.classList.remove("active2");
+    //     // cursor2.classList.remove("active2");
+    //   });
+    // });
+    // document.querySelector("#footer").addEventListener("mouseenter", () => {
+    //   cursor.classList.add("active3");
+    //   cursor2.classList.add("active3");
+    // });
+    // document.querySelector("#footer").addEventListener("mouseleave", () => {
+    //   cursor.classList.remove("active3");
+    //   cursor2.classList.remove("active3");
+    // });
+  });
+
+  // document.body.style.cursor = "none";
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const pageContainer = document.querySelector(".container");
+
+  /* SMOOTH SCROLL */
+  const scroller = new LocomotiveScroll({
+    el: pageContainer,
+    smooth: true,
+  });
+
+  scroller.on("scroll", ScrollTrigger.update);
+
+  ScrollTrigger.scrollerProxy(pageContainer, {
+    scrollTop(value) {
+      return arguments.length
+        ? scroller.scrollTo(value, 0, 0)
+        : scroller.scroll.instance.scroll.y;
+    },
+    getBoundingClientRect() {
+      return {
+        left: 0,
+        top: 0,
+        width: window.innerWidth,
+        height: window.innerHeight,
+      };
+    },
+    pinType: pageContainer.style.transform ? "transform" : "fixed",
+  });
+
+  ////////////////////////////////////
+  ////////////////////////////////////
+  window.addEventListener("load", function () {
+    let pinBoxes = document.querySelectorAll(".pin-wrap > *");
+    let pinWrap = document.querySelector(".pin-wrap");
+    let pinWrapWidth = pinWrap.offsetWidth;
+    let horizontalScrollLength = pinWrapWidth - window.innerWidth;
+
+    // Pinning and horizontal scrolling
+
+    gsap.to(".pin-wrap", {
+      scrollTrigger: {
+        scroller: pageContainer, //locomotive-scroll
+        scrub: true,
+        trigger: "#sectionPin",
+        pin: true,
+        // anticipatePin: 1,
+        start: "top top",
+        end: pinWrapWidth,
+      },
+      x: -horizontalScrollLength,
+      ease: "none",
+    });
+
+    ScrollTrigger.addEventListener("refresh", () => scroller.update()); //locomotive-scroll
+
+    ScrollTrigger.refresh();
+  });
+</script> -->
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  /*cursor*/
+  window.addEventListener("mousemove", (e) => {
+    const cursor = document.querySelector(".mouse__cursor");
+    //gsap.to(cursor, { duration: 0.3, left: e.pageX - 5, top: e.pageY - 5 });
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    //const sections = document.querySelectorAll(".section");
+    //const totalSections = sections.length;
+    // const horizontalScrollSlide = (section) => {
+    //   const inner = section.querySelector(".portfolio-list");
+    //   gsap.to(inner, {
+    //     x: () =>
+    //       -(inner.scrollWidth - document.documentElement.clientWidth) + "px",
+    //     ease: "none",
+    //     scrollTrigger: {
+    //       start: "top top",
+    //       end: () =>
+    //         `+=${inner.scrollWidth - document.documentElement.clientWidth}`,
+    //       trigger: section,
+    //       pin: true,
+    //       scrub: 1,
+    //       invalidateOnRefresh: true,
+    //       end: () => `+=${inner.offsetWidth}`,
+    //       onLeave: () => {
+    //         console.log("이벤트 끝!!");
+    //         const nextSection = section.nextElementSibling;
+    //         if (nextSection) {
+    //           gsap.to(window, {
+    //             scrollTo: nextSection,
+    //             duration: 1,
+    //             ease: "power2.inOut",
+    //             onComplete: () => {
+    //               // 다음 섹션으로 이동한 후에 스크롤 트리거를 종료
+    //               ScrollTrigger.getAll().forEach((trigger) => {
+    //                 if (trigger.trigger === section) {
+    //                   trigger.kill();
+    //                 }
+    //               });
+    //             },
+    //           });
+    //         }
+    //       },
+    //       // onLeave: () => {
+    //       //   // 가로 슬라이드 끝나면 다음 섹션으로 이동하는 애니메이션
+    //       //   const nextSection = wrapper.nextElementSibling;
+    //       //   if (nextSection) {
+    //       //     gsap.to(window, {
+    //       //       scrollTo: nextSection,
+    //       //       duration: 1,
+    //       //       ease: "power2.inOut",
+    //       //     });
+    //       //   }
+    //       // },
+    //     },
+    //   });
+    // };
+    // gsap.utils.toArray("section").forEach((section, i) => {
+    //   ScrollTrigger.create({
+    //     trigger: section,
+    //     start: "top top",
+    //     pin: true,
+    //     pinSpacing: false,
+    //   });
+    // });
+    // ScrollTrigger.create({
+    //   snap: 1 / 4,
+    // });
+    // sections.forEach((sectionEl) => {
+    //   ScrollTrigger.create({
+    //     trigger: sectionEl,
+    //     start: "top top",
+    //     pin: true,
+    //     pinSpacing: false,
+    //     onLeave: (self) => {
+    //       const nextSection = sectionEl.nextElementSibling;
+    //       if (nextSection) {
+    //         gsap.to(window, {
+    //           scrollTo: nextSection,
+    //           duration: 1,
+    //           ease: "power2.inOut",
+    //         });
+    //       }
+    //     },
+    //   });
+    // });
+    // sections.forEach((sectionEl, i) => {
+    //   ScrollTrigger.create({
+    //     trigger: sectionEl,
+    //     start: "top top",
+    //     pin: true,
+    //     pinSpacing: false,
+    //     // onEnter: () => {
+    //     //   // 섹션이 들어오면 가로 스크롤 활성화
+    //     //   if (sectionEl.classList.contains("portfolio-section")) {
+    //     //     console.log("진입");
+    //     //     horizontalScrollSlide(sectionEl);
+    //     //   }
+    //     // },
+    //     // onLeave: () => {
+    //     //   // 가로 스크롤이 활성화된 섹션에서 풀페이지 스크롤 비활성화
+    //     //   if (sectionEl.classList.contains("portfolio-section")) {
+    //     //     ScrollTrigger.getAll().forEach((trigger) => {
+    //     //       if (trigger.trigger === sectionEl) {
+    //     //         trigger.kill();
+    //     //       }
+    //     //     });
+    //     //   }
+    //     // },
+    //   });
+    //});
+    // 풀페이지 스크롤 설정
+    // gsap.utils.toArray("section").forEach((section, i) => {
+    //   ScrollTrigger.create({
+    //     trigger: section,
+    //     start: "top top",
+    //     pin: true,
+    //     pinSpacing: false,
+    //     onLeave: () => {
+    //       // 섹션이 들어오면 가로 스크롤 활성화
+    //       if (section.classList.contains("portfolio-section")) {
+    //         horizontalScrollSlide(section);
+    //       }
+    //     },
+    //     onLeaveBack: () => {
+    //       // 이전 섹션으로 돌아갈 때 가로 스크롤 비활성화
+    //       if (section.classList.contains("portfolio-section")) {
+    //         ScrollTrigger.getAll().forEach((trigger) => {
+    //           if (trigger.trigger === section) {
+    //             trigger.kill(); // 가로 스크롤 비활성화
+    //           }
+    //         });
+    //       }
+    //     },
+    //   });
+    // });
+    /* 가로 슬라이드 */
+    const pinnedImageWrappers = document.querySelectorAll(".portfolio-section");
+    if (pinnedImageWrappers) {
+      pinnedImageWrappers.forEach((wrapper) => {
+        const inner = wrapper.querySelector(".portfolio-list");
+        gsap.to(inner, {
+          x: () =>
+            -(inner.scrollWidth - document.documentElement.clientWidth) + "px",
+          ease: "none",
+          scrollTrigger: {
+            start: "top",
+            end: "bottom",
+            trigger: wrapper,
+            pin: true,
+            scrub: 1,
+            invalidateOnRefresh: true,
+            end: () => `+=${inner.offsetWidth}`,
+            // onLeave: (self) => {
+            //   // 가로 슬라이드 끝나면 다음 섹션으로 이동하는 애니메이션
+            //   const nextSection = wrapper.nextElementSibling;
+            //   if (nextSection) {
+            //     gsap.to(window, {
+            //       scrollTo: nextSection,
+            //       duration: 1,
+            //       ease: "power2.inOut",
+            //     });
+            //   }
+            // },
+          },
+        });
+      });
+    }
+  });
+</script>
