@@ -192,6 +192,9 @@ body {
   position: relative;
   width: 100%;
 }
+.section.h-full {
+  height: 100vh;
+}
 
 .skill-section {
   height: 100vh;
@@ -305,7 +308,6 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding: 4.2vw;
-  height: 100vh;
 }
 .scroll-text-section .bg-area {
   z-index: 1;
@@ -350,9 +352,6 @@ body {
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.portfolio-section {
-  height: 100vh;
-}
 .portfolio-section .portfolio-list {
   height: 100%;
   width: 100%;
@@ -477,6 +476,13 @@ body {
 
 .poppins {
   font-family: "Poppins";
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*
