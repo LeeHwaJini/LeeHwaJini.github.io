@@ -2,7 +2,6 @@
 @import "./font.scss";
 @import "./variables.scss";
 @import "./icon.scss";
-@import "./common2.scss";
 
 .cursor {
   position: fixed;
@@ -109,10 +108,10 @@ body {
   &::before {
     content: "";
     position: absolute;
-    bottom: -6%;
-    right: -5%;
-    width: 320px;
-    height: 320px;
+    bottom: 0;
+    right: -4%;
+    width: 280px;
+    height: 280px;
   }
 
   &.type01::before {
@@ -172,11 +171,12 @@ body {
       margin-bottom: 16px;
       font-size: 42px;
       font-weight: bold;
+      text-transform: uppercase;
     }
 
     dd {
       line-height: 130%;
-      color: #727272;
+      color: $primary04;
       font-size: 24px;
     }
   }
@@ -281,38 +281,38 @@ body {
       }
 
       &.riman {
-        background: url("../images/portfoilo_riman.png") no-repeat center
-          center/cover;
-      }
-
-      &.medical-center {
-        background: url("../images/portfoilo_medical_center.png") no-repeat
+        background: url("../images/portfoilo/portfoilo_riman.png") no-repeat
           center center/cover;
       }
 
+      &.medical-center {
+        background: url("../images/portfoilo/portfoilo_medical_center.png")
+          no-repeat center center/cover;
+      }
+
       &.dari {
-        background: url("../images/portfoilo_dari.png") no-repeat center
-          center/cover;
+        background: url("../images/portfoilo/portfoilo_dari.png") no-repeat
+          center center/cover;
       }
 
       &.loftshop {
-        background: url("../images/portfoilo_loftshop.png") no-repeat center
-          center/cover;
+        background: url("../images/portfoilo/portfoilo_loftshop.png") no-repeat
+          center center/cover;
       }
 
       &.eg {
-        background: url("../images/portfolio_eg.png") no-repeat center
+        background: url("../images/portfoilo/portfolio_eg.png") no-repeat center
           center/cover;
       }
 
       &.topper {
-        background: url("../images/portfoilo_topper.png") no-repeat center
-          center/cover;
+        background: url("../images/portfoilo/portfoilo_topper.png") no-repeat
+          center center/cover;
       }
 
       &.inus {
-        background: url("../images/portfoilo_inus.png") no-repeat center
-          center/cover;
+        background: url("../images/portfoilo/portfoilo_inus.png") no-repeat
+          center center/cover;
       }
 
       .text-area {
@@ -352,8 +352,9 @@ body {
           }
 
           dd {
-            font-size: 1.5rem;
             margin-bottom: 24px;
+            font-size: 1.5rem;
+            word-break: keep-all;
           }
         }
       }

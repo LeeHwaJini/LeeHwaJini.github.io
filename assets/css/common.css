@@ -245,10 +245,10 @@ body {
 .card::before {
   content: "";
   position: absolute;
-  bottom: -6%;
-  right: -5%;
-  width: 320px;
-  height: 320px;
+  bottom: 0;
+  right: -4%;
+  width: 280px;
+  height: 280px;
 }
 .card.type01::before {
   background: url("../images/skill/bg01.png") no-repeat center center/contain;
@@ -295,10 +295,11 @@ body {
   margin-bottom: 16px;
   font-size: 42px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .card .text-list dd {
   line-height: 130%;
-  color: #727272;
+  color: #858585;
   font-size: 24px;
 }
 
@@ -411,25 +412,25 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 .portfolio-section .portfolio-list li.riman {
-  background: url("../images/portfoilo_riman.png") no-repeat center center/cover;
+  background: url("../images/portfoilo/portfoilo_riman.png") no-repeat center center/cover;
 }
 .portfolio-section .portfolio-list li.medical-center {
-  background: url("../images/portfoilo_medical_center.png") no-repeat center center/cover;
+  background: url("../images/portfoilo/portfoilo_medical_center.png") no-repeat center center/cover;
 }
 .portfolio-section .portfolio-list li.dari {
-  background: url("../images/portfoilo_dari.png") no-repeat center center/cover;
+  background: url("../images/portfoilo/portfoilo_dari.png") no-repeat center center/cover;
 }
 .portfolio-section .portfolio-list li.loftshop {
-  background: url("../images/portfoilo_loftshop.png") no-repeat center center/cover;
+  background: url("../images/portfoilo/portfoilo_loftshop.png") no-repeat center center/cover;
 }
 .portfolio-section .portfolio-list li.eg {
-  background: url("../images/portfolio_eg.png") no-repeat center center/cover;
+  background: url("../images/portfoilo/portfolio_eg.png") no-repeat center center/cover;
 }
 .portfolio-section .portfolio-list li.topper {
-  background: url("../images/portfoilo_topper.png") no-repeat center center/cover;
+  background: url("../images/portfoilo/portfoilo_topper.png") no-repeat center center/cover;
 }
 .portfolio-section .portfolio-list li.inus {
-  background: url("../images/portfoilo_inus.png") no-repeat center center/cover;
+  background: url("../images/portfoilo/portfoilo_inus.png") no-repeat center center/cover;
 }
 .portfolio-section .portfolio-list li .text-area {
   position: relative;
@@ -464,8 +465,9 @@ body {
   font-weight: 500;
 }
 .portfolio-section .portfolio-list li .text-area .detail-text dd {
-  font-size: 1.5rem;
   margin-bottom: 24px;
+  font-size: 1.5rem;
+  word-break: keep-all;
 }
 
 .icon-area {
